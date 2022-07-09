@@ -2,7 +2,7 @@
  * Created by krasnovoronka on 09/07/2022.
  */
 
-public class God {
+public with sharing class God {
 
     public Man createMan(String name){
         return new Man(name);
